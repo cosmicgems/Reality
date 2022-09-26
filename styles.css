@@ -1,0 +1,342 @@
+@font-face{
+  src: url(fonts/Android2.ttf);
+  font-family: andromeda;
+}
+@font-face {
+  src: url(fonts/moni.otf);
+  font-family: android;
+
+}
+
+div{
+  text-align: center;
+}
+
+
+
+svg{
+  display: inline;
+  position: absolute;
+  height: 0;
+}
+
+
+html{
+}
+body{
+  text-align: center;
+}
+.body{
+  background-color: black;
+  background-image: url(images/galaxy.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #EEEEEE;
+  padding: 0;
+}
+
+
+
+h1{
+
+    font-family: andromeda;
+}
+h3{
+      font-family: android;
+
+
+}
+h4{
+        font-family: android;
+}
+
+/* Title***************************** Section */
+
+.title{
+  text-align: center;
+  background-color: #000000;
+  position: absolute;
+  width: 100%;
+  right: 0;
+}
+
+.titleLogoDiv{
+  width:50%;
+}
+
+.titleLogoDiv:hover{
+  width: 50%;
+  filter: url("#power");
+}
+
+
+
+.titleCol{
+  height: 100%;
+  width: 100%;
+  text-align: center;
+
+}
+
+
+/* Navigation************************* Bar */
+.navButtonImg{
+  width: 35%;
+  opacity: 100%;
+}
+.navButtons:hover{
+  filter: url("#power3");
+}
+
+
+.navigationArrow{
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  background-color: none;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  bottom:0;
+  z-index: 1;
+}
+
+
+
+.gemArrow{
+  color: red;
+  position: absolute;
+  width: 100%;
+}
+.gemArrow2{
+  width: 100%;
+}
+
+.neon-blue {
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+}
+
+.neon-red{
+  color: #fff;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #DA1212,
+    0 0 80px #DA1212,
+    0 0 100px red;
+
+}
+
+.neon-hexblue {
+  color: #fff;
+  text-shadow:
+  0 0 5px #fff,
+  0 0 10px #fff,
+  0 0 20px #fff,
+  0 0 40px #11468F,
+  0 0 80px #11468F,
+  0 0 90px #0ff,
+  0 0 100px #0ff,
+  0 0 150px #0ff;
+    0 0 180px #0ff;
+}
+
+.neon-white {
+  color: #ECECEC;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff,
+    0 0 80px #fff,
+    0 0 90px #fff,
+    0 0 100px #fff,
+    0 0 150px #fff;
+}
+
+.neon-gold{
+  color: #FFF4CF;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #FFCB42,
+    0 0 80px #FFCB42,
+    0 0 90px #fff,
+    0 0 100px #FFCB42,
+    0 0 150px #fff;
+}
+
+.neon-gold2{
+  color: #FFF;
+  text-shadow:
+    0 0 5px #FFF4CF,
+    0 0 10px #fff,
+    0 0 15px #fff,
+    0 0 20px #FFF4CF,
+    0 0 30px #fff,
+    0 0 40px #fff;
+}
+
+/* Design**************** Section */
+
+
+
+/* .hidden{
+  display: none;
+} */
+
+.hide{
+  display:none;
+}
+
+
+.black-overlay{
+  height: 100vh;
+  background-color: black;
+  opacity: 35%;
+  position: relative;
+}
+
+
+.designH1{
+  font-size: 5.5rem;
+}
+.tagLine{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.titleH4{
+  font-size: 1.5rem;
+  line-height: 1.75;
+}
+
+.design{
+  text-align: center;
+  padding: 0% 14%;
+  position: absolute;
+  top: 25%;
+  opacity: 100%;
+}
+
+.designP2{
+  margin-top: 45px;
+  padding: 0 10%;
+}
+
+/* User Interface///// UI *************************** */
+
+
+
+.outterUserInterface{
+  margin: 3.5% 25%;
+  position: absolute;
+  top: 101%;
+}
+.userInterface{
+  padding: 0 7%;
+}
+.imgDim{
+  width: 35%;
+}
+
+.card-body{
+  background-color: none;
+  border-style: solid;
+  border-color: white;
+  border-radius: 12%;
+}
+
+
+.glitchWindow{
+  width: 93%;
+}
+
+.svg-glow:hover{
+  filter: url("#power2");
+}
+
+.row{
+  padding: 0 7%;
+}
+
+.golden-rules{
+  position: absolute;
+  top: 135%;
+}
+.golden-rules2{
+  position: absolute;
+  top:151%;
+}
+
+.golden-rules3{
+  position: absolute;
+  top: 167.5%;
+}
+
+.golden-rules4{
+  position: absolute;
+  top: 185%;
+}
+
+
+
+
+/* User Experience Section */
+
+#userExperience{
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.userExperience{
+  position: absolute;
+  top:205%;
+}
+.ueH3{
+  margin: 2%;
+}
+.ueH5{
+  margin-bottom: 2%;
+}
+.ueH4{
+  margin-bottom: 5%;
+}
+.imgDim2{
+  width: 50%;
+}
+.ueCardBody{
+margin-top: 5%;
+}
+
+
+/* Home -----------------------Section */
+#home{
+  text-align: center;
+}
+.home{
+  position: absolute;
+  top: 35%;
+}
+.fa-facebook{
+  transform: scale(4);
+  color: white;
+}
+.fa-facebook:hover{
+  transform: scale(5);
+  filter: url("#power4");
+
+.btn-outline-light{
+  width:7%;
+}
